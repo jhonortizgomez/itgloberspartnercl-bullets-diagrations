@@ -8,4 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Initial release.
+- Se creo un componente custom para enlistar categorias 
+### Added
+- Se agregaron vista mobile y desktop 
