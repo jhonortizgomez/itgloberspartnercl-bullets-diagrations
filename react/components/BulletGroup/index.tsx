@@ -18,7 +18,7 @@ const BulletGroup = ({
 
   const bulletsGroup = getBulletsAsTSXList(bullets)
   const newListContextValue = list.concat(bulletsGroup)
-  const CSS_HANDLES = ['bullet__container']
+  const CSS_HANDLES = ['bullet__container', 'bullet_desktop__container']
   const handles = useCssHandles(CSS_HANDLES)
 
   return (
@@ -26,7 +26,7 @@ const BulletGroup = ({
       {isMobile ? (
         <div className={handles.bullet__container}>{bulletsGroup}</div>
       ) : (
-        children
+        <div className={handles.bullet_desktop__container}>{children}</div>
       )}
     </ListContextProvider>
   )
