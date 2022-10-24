@@ -1,6 +1,8 @@
 .bullet__container {
   display: flex;
   overflow: auto;
+  width: 80% !important;
+  margin: 20px 0;
 }
 .bullet__container::-webkit-scrollbar {
   height: 4px;
